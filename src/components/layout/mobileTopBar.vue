@@ -1,6 +1,6 @@
 <script setup>
 const props = defineProps({
-  'selected-list': {
+  selectedList: {
     type: String,
   },
 })
