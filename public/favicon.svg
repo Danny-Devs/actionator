@@ -1,16 +1,209 @@
-<svg id="icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-      
-      }
-    </style>
-  </defs>
-  <title>bot</title>
-  <rect fill="white" x="18" y="10" width="2" height="2"/>
-  <rect fill="white" x="12" y="10" width="2" height="2"/>
-  <path fill="white" d="M26,20H21V18h1a2.0023,2.0023,0,0,0,2-2V12h2V10H24V8a2.0023,2.0023,0,0,0-2-2H20V2H18V6H14V2H12V6H10A2.0023,2.0023,0,0,0,8,8v2H6v2H8v4a2.0023,2.0023,0,0,0,2,2h1v2H6a2.0023,2.0023,0,0,0-2,2v8H6V22H26v8h2V22A2.0023,2.0023,0,0,0,26,20ZM10,8H22v8H10Zm3,10h6v2H13Z"/>
-  <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" shape-rendering="crispEdges"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 152 192"
+	 style="enable-background:new 0 0 152 192;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3A3855;}
+	.st1{fill:#FFF2E6;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#B89577;}
+	.st4{fill:#9FAEC6;}
+	.st5{fill:#B7C5E3;}
+	.st6{fill:#8E765C;}
+	.st7{fill:#F1B58D;}
+	.st8{fill:#C6A483;}
+	.st9{fill:#AAA19A;}
+	.st10{fill:#B8A177;}
+	.st11{fill:#EEC39A;}
+</style>
+<g>
+	<rect x="78" y="16" class="st0" width="4" height="4"/>
+	<polygon class="st0" points="94,20 98,20 98,16 94,16 90,16 86,16 86,20 90,20 	"/>
+	<polygon class="st0" points="98,28 102,28 106,28 110,28 110,24 106,24 102,24 102,20 98,20 98,24 	"/>
+	<polygon class="st0" points="114,32 118,32 122,32 122,28 118,28 114,28 110,28 110,32 	"/>
+	<polygon class="st0" points="118,40 114,40 114,44 110,44 106,44 102,44 98,44 94,44 94,48 98,48 102,48 106,48 110,48 110,52 
+		114,52 114,48 118,48 122,48 122,44 118,44 	"/>
+	<polygon class="st0" points="130,44 130,40 130,36 126,36 122,36 122,40 126,40 126,44 	"/>
+	<rect x="90" y="48" class="st0" width="4" height="4"/>
+	<polygon class="st0" points="138,48 134,48 134,52 138,52 142,52 142,48 	"/>
+	<rect x="130" y="56" class="st0" width="4" height="4"/>
+</g>
+<rect x="126" y="64" class="st1" width="4" height="4"/>
+<rect x="126" y="76" class="st1" width="4" height="4"/>
+<rect x="126" y="88" class="st2" width="4" height="4"/>
+<rect x="130" y="88" class="st2" width="4" height="4"/>
+<rect x="26" y="92" class="st3" width="4" height="4"/>
+<rect x="30" y="92" class="st3" width="4" height="4"/>
+<rect x="62" y="92" class="st4" width="4" height="4"/>
+<rect x="66" y="92" class="st4" width="4" height="4"/>
+<rect x="78" y="92" class="st2" width="4" height="4"/>
+<rect x="82" y="92" class="st2" width="4" height="4"/>
+<rect x="86" y="92" class="st2" width="4" height="4"/>
+<rect x="102" y="92" class="st4" width="4" height="4"/>
+<rect x="106" y="92" class="st4" width="4" height="4"/>
+<rect x="130" y="92" class="st2" width="4" height="4"/>
+<rect x="22" y="96" class="st3" width="4" height="4"/>
+<rect x="26" y="96" class="st3" width="4" height="4"/>
+<rect x="30" y="96" class="st3" width="4" height="4"/>
+<rect x="34" y="96" class="st3" width="4" height="4"/>
+<rect x="62" y="96" class="st4" width="4" height="4"/>
+<rect x="90" y="96" class="st2" width="4" height="4"/>
+<rect x="102" y="96" class="st4" width="4" height="4"/>
+<rect x="130" y="96" class="st2" width="4" height="4"/>
+<rect x="22" y="100" class="st3" width="4" height="4"/>
+<rect x="34" y="100" class="st3" width="4" height="4"/>
+<rect x="38" y="100" class="st3" width="4" height="4"/>
+<rect x="70" y="100" class="st1" width="4" height="4"/>
+<rect x="90" y="100" class="st2" width="4" height="4"/>
+<rect x="110" y="100" class="st4" width="4" height="4"/>
+<rect x="114" y="100" class="st1" width="4" height="4"/>
+<rect x="130" y="100" class="st2" width="4" height="4"/>
+<rect x="22" y="104" class="st3" width="4" height="4"/>
+<rect x="38" y="104" class="st3" width="4" height="4"/>
+<rect x="90" y="104" class="st2" width="4" height="4"/>
+<rect x="126" y="104" class="st2" width="4" height="4"/>
+<rect x="22" y="108" class="st3" width="4" height="4"/>
+<rect x="26" y="108" class="st3" width="4" height="4"/>
+<rect x="86" y="108" class="st2" width="4" height="4"/>
+<rect x="106" y="108" class="st4" width="4" height="4"/>
+<rect x="126" y="108" class="st2" width="4" height="4"/>
+<rect x="22" y="112" class="st3" width="4" height="4"/>
+<rect x="26" y="112" class="st3" width="4" height="4"/>
+<rect x="62" y="112" class="st4" width="4" height="4"/>
+<rect x="66" y="112" class="st4" width="4" height="4"/>
+<rect x="82" y="112" class="st2" width="4" height="4"/>
+<rect x="102" y="112" class="st1" width="4" height="4"/>
+<g>
+	<polygon class="st5" points="78,96 78,92 74,92 70,92 70,96 74,96 	"/>
+	<polygon class="st5" points="126,92 126,88 122,88 118,88 114,88 110,88 106,88 106,92 110,92 110,96 106,96 106,100 102,100 
+		102,104 106,104 106,108 110,108 110,112 110,116 114,116 118,116 122,116 122,112 126,112 126,108 126,104 122,104 118,104 
+		114,104 110,104 110,100 114,100 114,96 118,96 122,96 126,96 126,100 126,104 130,104 130,100 130,96 130,92 	"/>
+	<polygon class="st5" points="82,96 82,100 82,104 78,104 74,104 70,104 70,100 70,96 66,96 66,100 62,100 62,96 62,92 58,92 54,92 
+		54,96 54,100 58,100 58,104 58,108 62,108 62,112 66,112 70,112 70,116 74,116 78,116 82,116 82,112 86,112 86,108 90,108 90,104 
+		90,100 90,96 86,96 	"/>
+</g>
+<rect x="26" y="116" class="st3" width="4" height="4"/>
+<rect x="30" y="116" class="st3" width="4" height="4"/>
+<polygon class="st6" points="34,108 34,104 30,104 26,104 26,108 30,108 30,112 30,116 34,116 34,120 38,120 38,116 38,112 38,108 
+	"/>
+<rect x="30" y="120" class="st3" width="4" height="4"/>
+<rect x="34" y="120" class="st3" width="4" height="4"/>
+<rect x="38" y="120" class="st3" width="4" height="4"/>
+<rect x="106" y="120" class="st1" width="4" height="4"/>
+<rect x="122" y="120" class="st7" width="4" height="4"/>
+<rect x="38" y="124" class="st3" width="4" height="4"/>
+<rect x="62" y="124" class="st7" width="4" height="4"/>
+<rect x="102" y="124" class="st7" width="4" height="4"/>
+<rect x="106" y="124" class="st1" width="4" height="4"/>
+<rect x="122" y="124" class="st1" width="4" height="4"/>
+<rect x="58" y="128" class="st7" width="4" height="4"/>
+<rect x="102" y="128" class="st7" width="4" height="4"/>
+<rect x="106" y="128" class="st1" width="4" height="4"/>
+<rect x="122" y="128" class="st1" width="4" height="4"/>
+<rect x="58" y="132" class="st7" width="4" height="4"/>
+<rect x="94" y="132" class="st7" width="4" height="4"/>
+<rect x="98" y="132" class="st7" width="4" height="4"/>
+<rect x="102" y="132" class="st7" width="4" height="4"/>
+<rect x="122" y="132" class="st1" width="4" height="4"/>
+<rect x="118" y="136" class="st1" width="4" height="4"/>
+<rect x="90" y="140" class="st8" width="4" height="4"/>
+<rect x="94" y="140" class="st8" width="4" height="4"/>
+<rect x="98" y="140" class="st8" width="4" height="4"/>
+<rect x="118" y="140" class="st1" width="4" height="4"/>
+<rect x="118" y="144" class="st1" width="4" height="4"/>
+<rect x="74" y="148" class="st9" width="4" height="4"/>
+<rect x="78" y="148" class="st1" width="4" height="4"/>
+<rect x="82" y="148" class="st1" width="4" height="4"/>
+<rect x="86" y="148" class="st1" width="4" height="4"/>
+<rect x="90" y="148" class="st1" width="4" height="4"/>
+<rect x="94" y="148" class="st1" width="4" height="4"/>
+<rect x="98" y="148" class="st1" width="4" height="4"/>
+<rect x="102" y="148" class="st1" width="4" height="4"/>
+<rect x="114" y="148" class="st1" width="4" height="4"/>
+<rect x="78" y="152" class="st9" width="4" height="4"/>
+<rect x="82" y="152" class="st1" width="4" height="4"/>
+<rect x="86" y="152" class="st1" width="4" height="4"/>
+<rect x="90" y="152" class="st1" width="4" height="4"/>
+<rect x="94" y="152" class="st1" width="4" height="4"/>
+<rect x="98" y="152" class="st1" width="4" height="4"/>
+<rect x="114" y="152" class="st1" width="4" height="4"/>
+<rect x="78" y="156" class="st1" width="4" height="4"/>
+<rect x="82" y="156" class="st1" width="4" height="4"/>
+<rect x="86" y="156" class="st1" width="4" height="4"/>
+<rect x="90" y="156" class="st1" width="4" height="4"/>
+<rect x="94" y="156" class="st1" width="4" height="4"/>
+<rect x="98" y="156" class="st1" width="4" height="4"/>
+<rect x="110" y="160" class="st1" width="4" height="4"/>
+<g>
+	<polygon class="st10" points="86,60 90,60 90,56 86,56 82,56 78,56 78,60 82,60 	"/>
+	<rect x="118" y="56" class="st10" width="4" height="4"/>
+	<polygon class="st10" points="42,76 42,80 42,84 42,88 46,88 46,84 50,84 54,84 58,84 62,84 62,80 58,80 54,80 54,76 54,72 58,72 
+		62,72 62,68 62,64 66,64 70,64 70,60 66,60 62,60 58,60 54,60 54,56 58,56 58,52 54,52 50,52 50,56 46,56 42,56 42,60 38,60 38,64 
+		38,68 38,72 42,72 	"/>
+	<polygon class="st10" points="106,76 102,76 102,80 106,80 110,80 114,80 114,76 110,76 	"/>
+	<polygon class="st10" points="70,168 70,164 66,164 66,160 66,156 62,156 62,152 62,148 58,148 58,144 58,140 58,136 58,132 
+		58,128 62,128 62,124 62,120 58,120 58,116 54,116 54,112 54,108 50,108 46,108 46,104 42,104 42,108 42,112 42,116 42,120 42,124 
+		42,128 38,128 38,132 38,136 38,140 42,140 42,144 42,148 46,148 46,152 46,156 50,156 50,160 54,160 54,164 58,164 58,168 62,168 
+		62,172 66,172 66,176 70,176 74,176 74,172 70,172 	"/>
+	<polygon class="st10" points="90,168 86,168 82,168 82,172 86,172 90,172 94,172 98,172 98,168 94,168 	"/>
+</g>
+<rect x="94" y="176" class="st1" width="4" height="4"/>
+<g>
+	<polygon class="st11" points="126,60 122,60 118,60 118,56 114,56 110,56 106,56 106,60 102,60 98,60 94,60 90,60 86,60 82,60 
+		78,60 74,60 70,60 70,64 66,64 62,64 62,68 66,68 70,68 74,68 78,68 82,68 86,68 90,68 94,68 94,72 98,72 98,76 94,76 94,80 90,80 
+		86,80 82,80 82,84 86,84 90,84 94,84 94,88 98,88 98,84 102,84 102,80 102,76 106,76 106,72 106,68 110,68 114,68 118,68 122,68 
+		126,68 126,64 130,64 130,60 	"/>
+	<polygon class="st11" points="78,76 74,76 70,76 66,76 62,76 62,80 66,80 70,80 74,80 78,80 82,80 82,76 	"/>
+	<polygon class="st11" points="118,76 114,76 114,80 118,80 122,80 126,80 126,76 122,76 	"/>
+	<path class="st11" d="M114,120v4v4v4h-4v4h-4v4h-4v4h4h4v4v4h-4v4v4h-4v4h-4h-4h-4h-4h-4h-4v-4h-4v-4v-4h-4v-4v-4h4h4h4h4h4v-4v-4
+		h4v-4h4h4v-4v-4h4v-4v-4h-4v-4v-4h-4h-4v4h-4v4v4h-4h-4h-4v4h-4h-4h-4v4h-4v4v4h-4v4v4v4h4v4v4h4v4v4h4v4v4h4v4h4v4h4h4h4h4v-4h4v4
+		h4v-4h4v-4h4v-4v-4v-4h4v-4v-4v-4h4v-4v-4v-4h4v-4v-4v-4v-4h-4H114z M94,172h-4h-4h-4v-4h4h4h4h4v4H94z"/>
+</g>
+<g>
+	<path d="M134,56h4h4v-4h-4h-4v-4h4v-4v-4h-4v-4h-4v4v4h-4v-4h-4v-4h4h4v-4h-4v-4h4v-4h-4h-4h-4v-4h-4h-4v-4h-4h-4v-4h-4h-4V8h-4h-4
+		h-4h-4h-4h-4h-4h-4h-4v4h-4V8h-4v4h-4h-4v4h-4v4h-4v4h-4h-4h-4v4h-4v4v4h-4v4v4v4v4h-4v4v4v4v4v4v4v4h4v4v4v4v4v4v4h4v4v4v4h4v-4
+		v-4v-4v-4v-4h4v-4h4h4v4h4v4h4v4h4v4h4h4v4v4h4v4h4v4h4h4h4h4v-4h4h4h4v-4v-4h-4v4h-4h-4h-4h-4h-4h-4v-4v-4h-4v-4v-4h-4v-4v-4h4h4
+		h4h4h4h4h4h4h4v4h4v4v4v4h4h4v4h4v-4v-4h-4v-4v-4v-4h4v-4h4h4h4h4h4h4h4v4v4v4v4h4v-4v-4v-4v-4h4v-4v-4h-4h-4v-4v-4v-4v-4v-4h-4v4
+		v4h-4h-4h-4h-4h-4h-4v4v4h4h4h4h4h4h4v4h-4h-4h-4h-4h-4h-4h-4v4h-4v4h-4v-4h-4h-4h-4v-4h-4h-4h-4h-4h-4v4h-4h-4h-4h-4v4h-4v-4v-4
+		v-4v-4h-4v-4v-4v-4h4v-4h4h4v-4h4h4v4h-4v4h4h4h4h4h4h4v-4h4h4h4v4h4h4h4h4v-4h4h4h4h4v4h4h4v-4H134z M82,20h-4v-4h4V20z M98,16v4
+		h4v4h4h4v4h4h4h4v4h-4h-4h-4v-4h-4h-4h-4v-4v-4h-4h-4h-4v-4h4h4H98z M110,52v-4h-4h-4h-4h-4v4h-4v-4h4v-4h4h4h4h4h4v-4h4v4h4v4h-4
+		h-4v4H110z"/>
+	<polygon points="90,80 94,80 94,76 98,76 98,72 94,72 94,68 90,68 86,68 82,68 78,68 74,68 70,68 66,68 62,68 62,72 58,72 54,72 
+		54,76 54,80 58,80 62,80 62,76 66,76 70,76 74,76 78,76 82,76 82,80 86,80 	"/>
+	<polygon points="74,96 70,96 70,100 74,100 74,104 78,104 82,104 82,100 82,96 78,96 	"/>
+	<polygon points="118,96 114,96 114,100 118,100 118,104 122,104 126,104 126,100 126,96 122,96 	"/>
+	<polygon points="30,100 26,100 26,104 30,104 34,104 34,100 	"/>
+	<rect x="34" y="104" width="4" height="4"/>
+	<polygon points="130,108 130,112 126,112 122,112 122,116 118,116 114,116 110,116 110,112 106,112 106,116 106,120 110,120 
+		110,124 110,128 110,132 114,132 114,128 114,124 114,120 118,120 122,120 126,120 126,124 126,128 126,132 126,136 130,136 
+		130,132 130,128 130,124 130,120 130,116 134,116 134,112 134,108 134,104 130,104 	"/>
+	<polygon points="38,112 38,116 38,120 42,120 42,116 42,112 42,108 38,108 	"/>
+	<rect x="90" y="108" width="4" height="4"/>
+	<rect x="22" y="116" width="4" height="4"/>
+	<rect x="26" y="120" width="4" height="4"/>
+	<polygon points="38,132 38,128 38,124 34,124 30,124 30,128 34,128 34,132 34,136 34,140 38,140 38,136 	"/>
+	<rect x="106" y="132" width="4" height="4"/>
+	<polygon points="98,136 94,136 90,136 90,140 94,140 98,140 102,140 106,140 106,136 102,136 	"/>
+	<polygon points="122,140 122,144 122,148 126,148 126,144 126,140 126,136 122,136 	"/>
+	<polygon points="42,140 38,140 38,144 38,148 42,148 42,144 	"/>
+	<polygon points="102,144 98,144 94,144 90,144 86,144 82,144 78,144 74,144 70,144 70,148 70,152 74,152 74,148 78,148 82,148 
+		86,148 90,148 94,148 98,148 102,148 106,148 106,152 110,152 110,148 110,144 106,144 	"/>
+	<polygon points="46,148 42,148 42,152 42,156 46,156 46,152 	"/>
+	<polygon points="118,152 118,156 122,156 122,152 122,148 118,148 	"/>
+	<polygon points="78,152 74,152 74,156 74,160 78,160 78,156 	"/>
+	<polygon points="102,156 102,160 106,160 106,156 106,152 102,152 	"/>
+	<rect x="46" y="156" width="4" height="4"/>
+	<polygon points="114,160 114,164 118,164 118,160 118,156 114,156 	"/>
+	<rect x="50" y="160" width="4" height="4"/>
+	<polygon points="94,160 90,160 86,160 82,160 78,160 78,164 82,164 86,164 90,164 94,164 98,164 102,164 102,160 98,160 	"/>
+	<rect x="54" y="164" width="4" height="4"/>
+	<polygon points="110,168 110,172 114,172 114,168 114,164 110,164 	"/>
+	<rect x="58" y="168" width="4" height="4"/>
+	<rect x="62" y="172" width="4" height="4"/>
+	<rect x="106" y="172" width="4" height="4"/>
+	<polygon points="74,176 70,176 66,176 66,180 70,180 74,180 78,180 78,176 	"/>
+	<rect x="102" y="176" width="4" height="4"/>
+	<polygon points="94,180 90,180 86,180 82,180 78,180 78,184 82,184 86,184 90,184 94,184 98,184 102,184 102,180 98,180 	"/>
+</g>
 </svg>
-
