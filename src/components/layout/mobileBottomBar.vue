@@ -1,6 +1,6 @@
 <script setup>
 const openActionModal = () => {
-  console.log('Action modal opened')
+
 }
 </script>
 
