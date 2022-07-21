@@ -29,25 +29,27 @@ const focusAction = () => {
   <!-- double clicking will bring action into focus -->
   <div
     ref="doubleTapEl"
-    border-b-1
-    border-t-1
+    shadow-md
     flex
     items-center
     justify-between
-    py-4
+    py-3
+    px-4
+    dark:bg-teal-900
+    bg-teal-100
+    mx-4
+    my-3
+    rounded-lg
     @dblclick="focusAction"
   >
-    <div flex items-center>
-      <div i-carbon-draggable text-xl ml-2 />
-      <p text ml-2>
-        {{ title }}
-      </p>
-    </div>
-    <div flex mr-3>
-      <!-- stars will rise to the top. stars are multi-clickable/multi-colored -->
-      <div i-carbon-star text-lg mr-3 />
-      <div i-carbon-navaid-military text-lg mr-3 />
-    </div>
+    <div i-carbon-star />
+
+    <p ml-2 class="w-4/5">
+      {{ title }}
+    </p>
+
+    <!-- stars will rise to the top. stars are multi-clickable/multi-colored -->
+    <div i-carbon-navaid-military />
   </div>
 </template>
 

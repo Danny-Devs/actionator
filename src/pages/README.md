@@ -1,3 +1,11 @@
+# Notes from DannyDevs
+
+how about swipe left to archive an item
+
+an undo button would be great
+
+also you can move from archive back to list
+
 ## File-based Routing
 
 Routes will be auto-generated for Vue files in this dir with the same file structure.

@@ -9,11 +9,11 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ActionItem: typeof import('./src/components/actionItem.vue')['default']
     Counter: typeof import('./src/components/Counter.vue')['default']
-    DarkModeToggle: typeof import('./src/components/ui/darkModeToggle.vue')['default']
+    DarkModeToggle: typeof import('./src/components/ui/DarkModeToggle.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
-    MobileBottomBar: typeof import('./src/components/layout/mobileBottomBar.vue')['default']
+    MobileBottomBar: typeof import('./src/components/layout/MobileBottomBar.vue')['default']
     MobileNavbar: typeof import('./src/components/layout/mobileNavbar.vue')['default']
-    MobileTopBar: typeof import('./src/components/layout/mobileTopBar.vue')['default']
+    MobileTopBar: typeof import('./src/components/layout/MobileTopBar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
