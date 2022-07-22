@@ -40,8 +40,16 @@ const addAction = () => {
   tagsList.value = []
 }
 
-const activateTag = (tagName) => {
-  tagsList.value.push(tagName)
+const activateTag = (tagName, event) => {
+  if (tagsList.value.includes(tagName)) {
+    tagsList.value = tagsList.value.filter(tag => tag !== tagName)
+    event.target.style.backgroundColor = '#5eead4'
+  }
+  else {
+    event.target.style.backgroundColor = 'cyan'
+    tagsList.value.push(tagName)
+  }
+  console.log('event: ', event)
 }
 </script>
 
@@ -83,29 +91,29 @@ const activateTag = (tagName) => {
           </div>
 
           <div grid grid-cols-2 gap-y-2 gap-x-2>
-            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('work')">
+            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('work', $event)">
               work
             </p>
 
-            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('vue')">
+            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('vue', $event)">
               vue
             </p>
-            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('household')">
+            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('household', $event)">
               household
             </p>
-            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('health')">
+            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('health', $event)">
               health
             </p>
-            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('church')">
+            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('church', $event)">
               church
             </p>
-            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('bopping')">
+            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('bopping', $event)">
               bopping
             </p>
-            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('travel')">
+            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('travel', $event)">
               travel
             </p>
-            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('to file')">
+            <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('to file', $event)">
               to file
             </p>
           </div>

@@ -1,5 +1,6 @@
 <script setup>
 import { breakpointsTailwind, useBreakpoints, useLocalStorage } from '@vueuse/core'
+import draggable from 'vuedraggable'
 import { isDark, toggleDark } from '../composables/dark.ts'
 import { useActionsStore } from '../stores/useActionsStore'
 
@@ -7,6 +8,8 @@ const breakpoints = useBreakpoints(breakpointsTailwind)
 const sm = breakpoints.smaller('sm')
 
 const store = useActionsStore()
+
+console.log(store.actions)
 </script>
 
 <template>
@@ -14,13 +17,29 @@ const store = useActionsStore()
 
   <!-- actions  -->
   <div>
-    <actionItem
+    <draggable
+      tag="ul"
+      :list="store.actions"
+      class="list-group"
+      handle=".handle"
+      item-key="name"
+    >
+      <template #item="{ element }">
+        <ul>
+          <actionItem :id="element.id" class="handle" :title="element.title" :starred="element.starred" :description="element.description" :tags-list="element.tagsList" />
+        </ul>
+      </template>
+    </draggable>
+
+    <!-- legacy code -->
+    <!-- <actionItem
       v-for="item in store.actions"
+      :id="item.id"
       :key="item.id"
       :description="item.description"
       :title="item.title"
       :starred="item.starred"
-    />
+    /> -->
   </div>
   <!-- end actions -->
 
@@ -30,3 +49,4 @@ const store = useActionsStore()
 <style scoped>
 
 </style>
+
