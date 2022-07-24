@@ -7,14 +7,18 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    404: typeof import('./src/components/layouts/404.vue')['default']
     ActionItem: typeof import('./src/components/actionItem.vue')['default']
+    AddActionModal: typeof import('./src/components/ui/AddActionModal.vue')['default']
     Counter: typeof import('./src/components/Counter.vue')['default']
     DarkModeToggle: typeof import('./src/components/ui/DarkModeToggle.vue')['default']
+    Default: typeof import('./src/components/layouts/default.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    Home: typeof import('./src/components/layouts/home.vue')['default']
     LottieAnimation: typeof import('vue3-lottie')['Vue3Lottie']
-    MobileBottomBar: typeof import('./src/components/layout/MobileBottomBar.vue')['default']
+    MobileBottomBar: typeof import('./src/components/ui/MobileBottomBar.vue')['default']
     MobileNavbar: typeof import('./src/components/layout/mobileNavbar.vue')['default']
-    MobileTopBar: typeof import('./src/components/layout/MobileTopBar.vue')['default']
+    MobileTopBar: typeof import('./src/components/ui/MobileTopBar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

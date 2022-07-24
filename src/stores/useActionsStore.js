@@ -6,10 +6,11 @@ export const useActionsStore = defineStore('actions', {
   state: () => {
     return {
       selectedList: 'selected list',
+      isModalOpen: false,
       actions: [
         {
           id: uuid.v4(),
-          starred: true,
+          starred: false,
           title: 'implement draggable feature implement draggable feature implement draggable feature',
           description: 'quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto',
           tagsList: [
@@ -45,7 +46,9 @@ export const useActionsStore = defineStore('actions', {
       this.actions.push(action)
     },
     removeAction(id) {
-      this.actions = this.actions.filter(action => action.id !== id)
+      const indexOfAction = this.actions.findIndex(action => action.id === id)
+      this.actions.splice(indexOfAction, 1)
+      console.log(this.actions)
     },
     editAction(id, newTitle) {
       const myAction = this.actions.find(el => el.id === id)

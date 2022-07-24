@@ -2,7 +2,6 @@
 import { uuid } from 'vue-uuid'
 import { useActionsStore } from '../../stores/useActionsStore'
 
-const isModalOpen = ref(false)
 // value of title input element
 const titleText = ref('')
 const descText = ref('')
@@ -13,17 +12,17 @@ const store = useActionsStore()
 const actionList = ref([
   {
     id: 0,
-    title: 'A title',
+    title: 'A tFtle',
     description: 'a description',
     starred: false,
   },
 ])
 
 const openActionModal = () => {
-  isModalOpen.value = true
+  store.isModalOpen = true
 }
 const closeActionModal = () => {
-  isModalOpen.value = false
+  store.isModalOpen = false
 }
 
 const addAction = () => {
@@ -55,20 +54,20 @@ const activateTag = (tagName, event) => {
 
 <template>
   <div px-4 py-4 justify-between dark:bg-teal-800 bg-teal-500 fixed bottom-0 w-full flex>
-    <div dark:text-teal-300 i-carbon-add-alt text-2xl @click="openActionModal" />
+    <div dark:text-teal-300 i-carbon-add-alt text-2xl hover:cursor-pointer hover:text-slate-700 @click="openActionModal" />
     <div dark:text-teal-300 i-carbon-star text-2xl />
 
-    <div dark:text-teal-300 i-carbon-folders text-2xl />
-    <div dark:text-teal-300 i-carbon-analytics text-2xl />
-    <div dark:text-teal-300 i-carbon-settings text-2xl />
+    <div dark:text-teal-300 i-carbon-folders text-2xl hover:cursor-pointer hover:text-slate-700 />
+    <div dark:text-teal-300 i-carbon-analytics text-2xl hover:cursor-pointer hover:text-slate-700 />
+    <div dark:text-teal-300 i-carbon-settings text-2xl hover:cursor-pointer hover:text-slate-700 />
   </div>
 
   <!-- Modal -->
-  <div v-if="isModalOpen" class="grid ">
+  <div v-if="store.isModalOpen">
     <div p-4 bg-teal-500 class="absolute top-0 bottom-0 left-0 right-0">
       <form @submit.prevent="addAction">
-        <div i-carbon-close text-lg mr-1 @click="closeActionModal" />
-        <p text-3xl py-2 text-center>
+        <div i-carbon-close sm:text-base text-lg mr-1 @click="closeActionModal" />
+        <p sm:text-xl text-3xl py-2 text-center>
           action
         </p>
         <input v-model="titleText" shadow-lg autofocus rounded-lg type="text" px-4 py-3 w-full text-lg>
