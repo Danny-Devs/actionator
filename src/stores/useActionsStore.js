@@ -44,6 +44,9 @@ export const useActionsStore = defineStore('actions', {
     addAction(action) {
       this.actions.push(action)
     },
+    removeAction(id) {
+      this.actions = this.actions.filter(action => action.id !== id)
+    },
     editAction(id, newTitle) {
       const myAction = this.actions.find(el => el.id === id)
       myAction.title = newTitle

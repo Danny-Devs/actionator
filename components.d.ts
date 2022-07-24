@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
     Counter: typeof import('./src/components/Counter.vue')['default']
     DarkModeToggle: typeof import('./src/components/ui/DarkModeToggle.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    LottieAnimation: typeof import('vue3-lottie')['Vue3Lottie']
     MobileBottomBar: typeof import('./src/components/layout/MobileBottomBar.vue')['default']
     MobileNavbar: typeof import('./src/components/layout/mobileNavbar.vue')['default']
     MobileTopBar: typeof import('./src/components/layout/MobileTopBar.vue')['default']

@@ -3,6 +3,7 @@ import { breakpointsTailwind, useBreakpoints, useLocalStorage } from '@vueuse/co
 import draggable from 'vuedraggable'
 import { isDark, toggleDark } from '../composables/dark.ts'
 import { useActionsStore } from '../stores/useActionsStore'
+import waverJSON from '../../public/waver.json'
 
 const breakpoints = useBreakpoints(breakpointsTailwind)
 const sm = breakpoints.smaller('sm')
@@ -47,6 +48,14 @@ console.log(store.actions)
 </template>
 
 <style scoped>
-
+.actions-enter-active,
+.actions-leave-active {
+  transition: all 0.5s ease;
+}
+.actions-enter-from,
+.actions-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
 </style>
 

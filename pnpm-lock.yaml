@@ -23,6 +23,7 @@ specifiers:
   vue-router: ^4.1.2
   vue-tsc: ^0.38.5
   vue-uuid: ^3.0.0
+  vue3-lottie: ^2.2.5
   vuedraggable: ^4.1.0
 
 dependencies:
@@ -31,6 +32,7 @@ dependencies:
   vue: 3.2.37
   vue-router: 4.1.2_vue@3.2.37
   vue-uuid: 3.0.0_vue@3.2.37
+  vue3-lottie: 2.2.5_vue@3.2.37
   vuedraggable: 4.1.0_vue@3.2.37
 
 devDependencies:
@@ -2725,6 +2727,10 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
+  /lottie-web/5.9.6:
+    resolution: {integrity: sha512-JFs7KsHwflugH5qIXBpB4905yC1Sub2MZWtl/elvO/QC6qj1ApqbUZJyjzJseJUtVpgiDaXQLjBlIJGS7UUUXA==}
+    dev: false
+
   /loupe/2.3.4:
     resolution: {integrity: sha512-OvKfgCC2Ndby6aSTREl5aCCPTNIzlDfQZvZxNUrBrihDhL3xcrYegTblhmEiCrg2kKQz4XsFIaemE5BF4ybSaQ==}
     dependencies:
@@ -3993,6 +3999,16 @@ packages:
       '@vue/runtime-dom': 3.2.37
       '@vue/server-renderer': 3.2.37_vue@3.2.37
       '@vue/shared': 3.2.37
+
+  /vue3-lottie/2.2.5_vue@3.2.37:
+    resolution: {integrity: sha512-r9J5mSJpKjHmwf8OE2sFl3Xi7vRm+F8IDArMBGddLjKxXmFh2PZhdNR85faHt1/MBWLjPjLlKU5VR0N+l1yF8Q==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      vue: ^3.2
+    dependencies:
+      lottie-web: 5.9.6
+      vue: 3.2.37
+    dev: false
 
   /vuedraggable/4.1.0_vue@3.2.37:
     resolution: {integrity: sha512-FU5HCWBmsf20GpP3eudURW3WdWTKIbEIQxh9/8GE806hydR9qZqRRxRE3RjqX7PkuLuMQG/A7n3cfj9rCEchww==}
