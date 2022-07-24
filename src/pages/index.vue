@@ -42,7 +42,7 @@ const openAddActionModal = () => {
   </div>
   <!-- end actions -->
 
-  <MobileBottomBar v-if="sm" />
+  <MobileBottomBar />
 </template>
 
 <style scoped>

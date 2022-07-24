@@ -65,31 +65,31 @@ const activateTag = (tagName, event) => {
   <!-- Modal -->
   <div v-if="store.isModalOpen">
     <div p-4 bg-teal-500 class="absolute top-0 bottom-0 left-0 right-0">
-      <form @submit.prevent="addAction">
+      <form class="sm:w-4/5 lg:w-1/2" mx-auto @submit.prevent="addAction">
         <div i-carbon-close sm:text-base text-lg mr-1 @click="closeActionModal" />
-        <p sm:text-xl text-3xl py-2 text-center>
+        <p sm:text-xl text-3xl py-3 text-center>
           action
         </p>
-        <input v-model="titleText" shadow-lg autofocus rounded-lg type="text" px-4 py-3 w-full text-lg>
+        <input v-model="titleText" shadow-lg autofocus rounded-lg type="text" px-4 sm:py-2 py-3 w-full text-lg>
 
         <div>
-          <p text-3xl pt-6 pb-3 text-center>
+          <p sm:text-xl text-3xl pt-6 pb-3 text-center>
             description
           </p>
-          <input v-model="descText" shadow-lg rounded-lg type="text" px-4 py-3 w-full text-lg>
+          <input v-model="descText" shadow-lg rounded-lg type="text" px-4 py-3 sm:py-2 w-full text-lg>
         </div>
 
         <div text-xl pt-6>
-          <div mx-auto text-3xl pb-3 text-center flex justify-center items-center>
+          <div mx-auto text-3xl sm:text-xl pb-3 text-center flex justify-center items-center>
             <p>
               tags
             </p>
-            <div text-base i-carbon-add /><div text-base>
+            <div text-base i-carbon-add sm:text-sm /><div text-base>
               add tag
             </div>
           </div>
 
-          <div grid grid-cols-2 gap-y-2 gap-x-2>
+          <div grid grid-cols-2 md:grid-cols-3 gap-y-2 gap-x-2 sm:text-base>
             <p rounded-lg text-center py-2 bg-teal-300 @click="activateTag('work', $event)">
               work
             </p>
@@ -119,7 +119,7 @@ const activateTag = (tagName, event) => {
         </div>
 
         <div my-6 flex justify-center>
-          <button class="action:shadow-none action:scale-110" shadow-md flex justify-center items-center bg-amber-400 w-full py-4 rounded-md type="submit">
+          <button class="action:shadow-none action:scale-110" shadow-md flex justify-center items-center bg-amber-400 w-full py-4 sm:py-3 rounded-md type="submit">
             <div i-carbon-checkmark text-lg mr-1 />
             <p text-lg>
               Add action
