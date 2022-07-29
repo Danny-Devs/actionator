@@ -5,8 +5,16 @@ import { uuid } from 'vue-uuid'
 export const useActionsStore = defineStore('actions', {
   state: () => {
     return {
-      selectedList: 'selected list',
-      isModalOpen: false,
+      // flag for filter by stars feature
+      isListFiltered: false,
+
+      // flag for add action modal
+      isAddActionModalOpen: false,
+
+      // 1 level of undo/redo
+      actionsSnapshot: [],
+
+      // actions list
       actions: [
         {
           id: uuid.v4(),
@@ -30,6 +38,28 @@ export const useActionsStore = defineStore('actions', {
             '#tag3',
           ],
         },
+        {
+          id: uuid.v4(),
+          starred: true,
+          title: 'action title #3',
+          description: 'est rerum tempore vitae sequi sint nihil reprehenderit dolor beatae ea dolores neque fugiat blanditiis voluptate porro ',
+          tagsList: [
+            '#tag1',
+            '#tag2',
+            '#tag3',
+          ],
+        },
+        {
+          id: uuid.v4(),
+          starred: false,
+          title: 'action title #4',
+          description: 'est rerum tempore vitae sequi sint nihil reprehenderit dolor beatae ea dolores neque fugiat blanditiis voluptate porro ',
+          tagsList: [
+            '#tag1',
+            '#tag2',
+            '#tag3',
+          ],
+        },
       ],
     }
   },
@@ -42,13 +72,18 @@ export const useActionsStore = defineStore('actions', {
     },
   },
   actions: {
+    openAddActionModal() {
+      this.isAddActionModalOpen = true
+    },
+    closeAddActionModal() {
+      this.isAddActionModalOpen = false
+    },
     addAction(action) {
       this.actions.push(action)
     },
     removeAction(id) {
       const indexOfAction = this.actions.findIndex(action => action.id === id)
       this.actions.splice(indexOfAction, 1)
-      console.log(this.actions)
     },
     editAction(id, newTitle) {
       const myAction = this.actions.find(el => el.id === id)

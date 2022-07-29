@@ -142,8 +142,8 @@ const toggleStar = () => {
         rounded-lg
       >
         <div @click="toggleStar">
-          <div v-if="starred" i-carbon-star-filled mr-2 hover:cursor-pointer hover:text-slate-500 />
-          <div v-if="!starred" i-carbon-star mr-2 hover:cursor-pointer hover:text-slate-500 />
+          <div v-if="starred" i-carbon-star-filled mr-2 hover:cursor-pointer hover:text-slate-500 class="dark:hover:text-cyan-300" />
+          <div v-if="!starred" i-carbon-star mr-2 hover:cursor-pointer hover:text-slate-500 class="dark:hover:text-cyan-300" />
         </div>
 
         <!-- title section -->
@@ -160,7 +160,7 @@ const toggleStar = () => {
         <!-- end title section -->
 
         <!-- stars will rise to the top. stars are multi-clickable/multi-colored -->
-        <div v-if="!inEditMode" hover:cursor-pointer i-carbon-navaid-military mr-2 hover:text-slate-500 @click="enterFocusMode" />
+        <div v-if="!inEditMode" hover:cursor-pointer i-carbon-navaid-military mr-2 hover:text-slate-500 class="dark:hover:text-cyan-300" @click="enterFocusMode" />
 
         <!-- focus mode - full screen -->
         <Transition name="focus">
@@ -239,10 +239,10 @@ const toggleStar = () => {
         <!-- end focus mode -->
 
         <!-- open action menu -->
-        <div i-carbon-overflow-menu-vertical hover:cursor-pointer hover:text-slate-500 @click="openActionMenu" />
+        <div i-carbon-overflow-menu-vertical hover:cursor-pointer hover:text-slate-500 class="dark:hover:text-cyan-300" @click="openActionMenu" />
 
         <!-- action menu -->
-        <div v-if="isActionMenuOpen" ref="actionMenu" absolute right-10 bg-teal-100 shadow-lg z-10 px-4 py-4 rounded-lg>
+        <div v-if="isActionMenuOpen" ref="actionMenu" absolute right-10 bg-teal-100 dark:bg-teal-800 shadow-lg z-10 px-4 py-4 rounded-lg>
           <div flex items-center hover:text-teal-500>
             <div i-carbon-edit />
             <p p-2 @click="editAction">
